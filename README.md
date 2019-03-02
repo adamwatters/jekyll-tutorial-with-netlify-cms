@@ -1,5 +1,7 @@
 ### Netlify CMS Jekyll Notes
 
+TODO: figure out how netlify cms connects with special Jekyll conventions
+
 currently not button for jekyll here https://www.netlifycms.org/docs/start-with-a-template/, but this exists https://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/
 
 theres this, https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/, but I don't think
