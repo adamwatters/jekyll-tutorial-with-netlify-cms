@@ -15,4 +15,5 @@ followed this https://jekyllrb.com/docs/step-by-step/10-deployment/
 `_collections` has special meaning
 
 1. Start with Jekyl step by step https://jekyllrb.com/docs/step-by-step/01-setup/
-2.
+2. Take a [few special steps](https://github.com/jekyll/jekyll/issues/332) to get the site running on Github pages https://adamwatters.github.io/netlify-cms-jekyll/blog.html
+3.
