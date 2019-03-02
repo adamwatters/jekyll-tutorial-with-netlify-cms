@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /netlify-cms-jekyll/sitemap.xml
