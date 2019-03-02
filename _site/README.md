@@ -13,3 +13,6 @@ slack channel: https://forestry-community.slack.com/messages/C78GWHNKE/convo/C6G
 followed this https://jekyllrb.com/docs/step-by-step/10-deployment/
 `_posts` has special meaning
 `_collections` has special meaning
+
+1. Start with Jekyl step by step https://jekyllrb.com/docs/step-by-step/01-setup/
+2.
