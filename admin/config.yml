@@ -8,14 +8,5 @@ collections:
     folder: "_posts/"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - {
-          label: "Author",
-          collection: "authors",
-          name: "author",
-          widget: "relation",
-          searchFields: ["name"],
-          valueField: "name",
-          default: "blog",
-        }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Body", name: "body", widget: "markdown" }
