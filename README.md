@@ -16,4 +16,6 @@ followed this https://jekyllrb.com/docs/step-by-step/10-deployment/
 
 1. Start with Jekyl step by step https://jekyllrb.com/docs/step-by-step/01-setup/
 2. Take a [few special steps](https://github.com/jekyll/jekyll/issues/332) to get the site running on Github pages https://adamwatters.github.io/netlify-cms-jekyll/blog.html
-3.
+3. add base admin dir
+4. `Error loading the CMS configuration Config Errors: config should have required property 'collections' config should have required property 'media_folder' config should have required property 'media_library' config should match some schema in anyOf Check your config.yml file.`
+5.

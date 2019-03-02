@@ -3,7 +3,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-baseurl: /netlify-cms-jekyll/
+baseurl: /netlify-cms-jekyll
 
 collections:
   authors:
