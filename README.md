@@ -15,7 +15,16 @@ followed this https://jekyllrb.com/docs/step-by-step/10-deployment/
 `_collections` has special meaning
 
 1. Start with Jekyl step by step https://jekyllrb.com/docs/step-by-step/01-setup/
-2. Take a [few special steps](https://github.com/jekyll/jekyll/issues/332) to get the site running on Github pages https://adamwatters.github.io/netlify-cms-jekyll/blog.html
-3. add base admin dir
-4. `Error loading the CMS configuration Config Errors: config should have required property 'collections' config should have required property 'media_folder' config should have required property 'media_library' config should match some schema in anyOf Check your config.yml file.`
-5.
+2. choose path - Github/Netlify
+
+NETLIFY
+
+1. this is a very good start
+   https://blog.mvp-space.com/10-steps-to-configure-jekyll-with-netlify-as-a-cms-d754d73ea731
+
+GITHUB
+
+1. Take a [few special steps](https://github.com/jekyll/jekyll/issues/332) to get the site running on Github pages https://adamwatters.github.io/netlify-cms-jekyll/blog.html
+2. add base admin dir
+
+3) `Error loading the CMS configuration Config Errors: config should have required property 'collections' config should have required property 'media_folder' config should have required property 'media_library' config should match some schema in anyOf Check your config.yml file.`
