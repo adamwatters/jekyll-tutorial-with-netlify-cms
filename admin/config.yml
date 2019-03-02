@@ -6,7 +6,6 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "_posts/"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
