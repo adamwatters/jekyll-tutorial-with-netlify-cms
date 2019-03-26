@@ -38,13 +38,23 @@ collections:
       - { label: "Diplay Name", name: "display_name", widget: "string" }
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-        - label: "Pages"
-  - name: "pages"
+  - label: "Pages"
+    name: "pages"
     files:
       - label: "About Page"
         name: "about"
         file: "about.md"
         fields:
-          - {label: "Title", name: "title", widget: "hidden", default: "about"}
-          - {label: "Layout", name: "title", widget: "hidden", default: "about"}
+          - {
+              label: "Title",
+              name: "title",
+              widget: "hidden",
+              default: "about",
+            }
+          - {
+              label: "Layout",
+              name: "title",
+              widget: "hidden",
+              default: "about",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
