@@ -22,7 +22,7 @@ collections:
           widget: "relation",
           collection: "authors",
           searchFields: [name],
-          valueField: "name",
+          valueField: "short_name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
