@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<h1>{{ page.name }}</h1>
+<h1>{{ page.display_name }}</h1>
 <h2>{{ page.position }}</h2>
 
 {{ content }}
 
 <h2>Posts</h2>
 <ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.short_name %} {%
-  for post in filtered_posts %}
+  {% assign filtered_posts = site.posts | where: 'author', page.name %} {% for
+  post in filtered_posts %}
   <li>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>

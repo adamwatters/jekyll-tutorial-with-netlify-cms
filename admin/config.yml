@@ -21,8 +21,9 @@ collections:
           name: "author",
           widget: "relation",
           collection: "authors",
-          searchFields: [name],
-          valueField: "short_name",
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: "name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
@@ -33,8 +34,8 @@ collections:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Short Name", name: "short_name", widget: "string" }
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Short Name", name: "name", widget: "string" }
+      - { label: "Diplay Name", name: "display_name", widget: "string" }
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 # backend:

@@ -1,6 +1,6 @@
 ---
-short_name: jill
-name: Jill Smith
+name: jill
+display_name: Jill Smith
 position: Chief Editor
 ---
 
