@@ -8,7 +8,7 @@ layout: default
   {% for author in site.authors %}
   <li>
     <h2>
-      <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
+      <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
     </h2>
     <h3>{{ author.position }}</h3>
     <p>{{ author.content | markdownify }}</p>
