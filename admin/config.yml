@@ -74,6 +74,6 @@ collections:
               name: "items",
               widget: "list",
               fields:
-                - {label: Name, name: name, widget: string}
+                - {label: Name, name: name, widget: string},
                 - {label: Link, name: link, widget: string}
             }
