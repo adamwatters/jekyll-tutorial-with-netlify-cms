@@ -40,6 +40,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "About Page"
         name: "about"
