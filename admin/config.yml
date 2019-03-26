@@ -38,8 +38,8 @@ collections:
       - { label: "Diplay Name", name: "display_name", widget: "string" }
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Pages"
-    name: "pages"
+  - name: "pages"
+    label: "Pages"
     editor:
       preview: false
     files:
@@ -60,3 +60,20 @@ collections:
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - {
+              label: "Navigation Items",
+              name: "items",
+              widget: "list",
+              fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Link, name: link, widget: string}
+            }
