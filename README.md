@@ -449,3 +449,4 @@ Finally, add the following to the collections array in `config.yml`
 ```
 
 Now you can add, rename, and rearrange the navigation items on your blog.
+
