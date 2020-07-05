@@ -55,7 +55,7 @@ collections:
             }
           - {
               label: "Layout",
-              name: "title",
+              name: "layout",
               widget: "hidden",
               default: "about",
             }
