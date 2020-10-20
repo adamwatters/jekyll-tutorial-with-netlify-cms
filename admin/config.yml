@@ -2,7 +2,7 @@
 
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/uploads"
 collections:
   - name: "blog"
@@ -55,7 +55,7 @@ collections:
             }
           - {
               label: "Layout",
-              name: "title",
+              name: "layout",
               widget: "hidden",
               default: "about",
             }
